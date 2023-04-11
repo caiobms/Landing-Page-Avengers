@@ -53,7 +53,8 @@ header{
     color: red;
     text-decoration: none;
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 20px;	
+	transition: background-color 0.5s ease;
 }
 
 .text1 {
@@ -98,6 +99,12 @@ footer {
   a {
 	color: #fff;
 	text-decoration: none;
+  }
+
+  .menu a:hover {
+	background-color: #646464;
+	color: white;
+	box-shadow: 0px 0px 5px #888888;
   }
 
 /* Estilos para o botão */
